@@ -1,0 +1,1 @@
+png C:\Users\Lenovo\Desktop\图\fig4c_esp10.png, width=2400, height=1800, dpi=300, ray=1

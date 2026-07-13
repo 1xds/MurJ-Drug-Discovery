@@ -1,0 +1,8 @@
+
+fetch 5T77
+iterate organic, print(resn)
+create murj, polymer.protein
+delete 5T77
+h_add
+
+bg_color white

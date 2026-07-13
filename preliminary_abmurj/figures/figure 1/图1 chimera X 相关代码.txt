@@ -1,0 +1,35 @@
+导入文件：最原始的SWISS-MODEL构建的内向闭塞态模型 （处理后的导入会报错，报错：结构不完整） "D:\Autoduck_setting\model_02.pdb"
+
+软件内代码：
+open D:\Autoduck_setting\model_02.pdb format pdb
+surface #1
+coulombic
+
+select #8/A:24,25,49,52,270
+show sel
+style sel sphere
+scale sel radius factor 5
+color #8/A:24,49,52,270 dodger blue
+color #8/A:25 tomato
+
+delete ~protein
+delete solvent
+addh
+addcharge
+
+红 Arg24, Arg255
+蓝 Asp25
+
+select #2/A:24,25255
+show sel
+style sel sphere
+scale sel radius factor 5
+color #2/A:24,255 dodger blue
+color #2/A:24 tomato
+
+select #2/A:24,25,255
+show sel
+style sel sphere
+size sel atomRadius 2.5
+color #2/A:24,255 dodger blue
+color #2/A:25 tomato
